@@ -27,7 +27,7 @@ setup(name='MyShell-OpenVoice',
       python_requires='>=3.9',
       install_requires=[
             'librosa==0.9.1',
-            'faster-whisper==0.9.0',
+            'faster-whisper',
             'pydub==0.25.1',
             'wavmark==0.0.3',
             'numpy==1.22.0',
@@ -43,3 +43,4 @@ setup(name='MyShell-OpenVoice',
       ],
       zip_safe=False
       )
+
